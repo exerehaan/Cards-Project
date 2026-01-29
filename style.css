@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    height: 100%;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.container{
+    height: 800px;
+    display: grid;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 100px;
+    gap: 10px;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border : 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    /* height: 500px; */
+    
+}
+.one img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
